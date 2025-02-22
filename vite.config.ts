@@ -5,7 +5,7 @@ import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 export default defineConfig({
   build: {
-    outDir: 'public',
+    outDir: 'dist',
     assetsDir: 'assets', 
     emptyOutDir: true, 
   },
